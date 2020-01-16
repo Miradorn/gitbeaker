@@ -35,6 +35,7 @@ export interface ExpandedResponse {
   headers: object;
   status: number;
 }
+
 export interface PaginationResponse {
   data: object[];
   pagination: PaginationOptions;
